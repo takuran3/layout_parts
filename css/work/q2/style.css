@@ -4,36 +4,36 @@
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
 
-table.sample{
+.sample{
   table-layout: fixed;
   width: 100%;
   text-align: center;
 }
 
-table tr,
-table th,
-table td{
+.sample tr,
+.sample th,
+.sample td{
   border: 1px solid #dedede;
   padding:10px;
 }
 
-table th{
+.sample th{
   background-color: #2244aa;
   font-size: 18px;
   color: white;
   line-height:26px
 }
 
-table td{
+.sample td{
   font-size: 16px;
   line-height: 22px;
 }
 
-tbody tr:nth-child(2n+1){
+tbody tr:nth-child(2n){
   background-color:#ecf1f2;
 }
 
-.dotted{
+tbody tr:last-child{
   border-top: 2px dashed #000;
 }
 

@@ -43,7 +43,11 @@ q5のcssはq5フォルダの中のcssファイルに記述してください */
 
 .position_mag{
   position: absolute;
-  margin: 55px 55px;
+  left: 0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
 }
 
 .position_t{
