@@ -29,11 +29,11 @@ q3のcssはq3フォルダの中のcssファイルに記述してください */
   line-height: 22px;
 }
 
-tbody tr:nth-child(2n){
+.sample tbody tr:nth-child(2n){
   background-color:#ecf1f2;
 }
 
-tbody tr:last-child{
+.sample tbody tr:last-child{
   border-top: 2px dashed #000;
 }
 

@@ -3,3 +3,68 @@
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
+
+.hidden{
+  overflow:  hidden;
+}
+
+.float{
+  float:left;
+  width: 400px;
+  margin-left: 60px;
+  
+}
+
+.float:first-child{
+  margin-left: 0px;
+}
+
+.q5_table{
+  display:table;
+}
+
+.q5_cell{
+  display: table-cell;
+  width: 400px;
+  padding-left: 60px;
+}
+
+.q5_cell:first-child{
+  padding-left: 0px;
+}
+
+.q5_font0{
+  font-size: 0;
+}
+
+.q5_inline{
+  display: inline-block;
+  width: 400px;
+  margin-left: 60px;
+}
+
+.q5_inline:first-child{
+  margin-left: 0px;
+}
+
+.q5_flex{
+  display: flex;
+}
+
+.q5_flex_item{
+  width: 400px;
+  margin-left: 60px;
+}
+
+.q5_flex_item:first-child{
+  margin-left: 0px;
+}
+
+.q5_calc{
+  width: calc(100% / 3);
+  margin-left: 60px;
+}
+
+.q5_calc:first-child{
+  margin-left: 0px;
+}

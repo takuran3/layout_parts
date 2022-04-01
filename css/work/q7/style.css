@@ -1,1 +1,45 @@
 @charset "UTF-8";
+
+.q7_flex{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.q7_icon{
+  vertical-align: baseline;
+}
+
+.f_sample{
+  margin-left: 35px;
+  position: relative;
+  font-size: 16px;
+  border: solid 5px #222;
+  width: 500px;
+  border-radius: 30px;
+}
+
+.f_sample:before,
+.f_sample:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 25px;
+  border: solid 20px transparent;
+}
+
+.f_sample:before{
+  left:-45px;
+  border-right-color:#222 ;
+}
+
+.f_sample:after{
+  content: "";
+  left: -38px;
+  border-right-color: white;
+}
+
+.f_sample p{
+  padding:20px;
+}
