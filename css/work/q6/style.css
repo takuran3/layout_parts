@@ -72,6 +72,7 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
 .anima{
   padding:80px 0;
   height: 540px;
+  box-sizing: border-box;
 }
 
 .anima p{

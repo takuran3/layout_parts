@@ -4,8 +4,10 @@
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
 
-.hidden{
-  overflow: hidden;
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .float{
