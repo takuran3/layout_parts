@@ -60,9 +60,13 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   margin-left: 0px;
 }
 
+.q5_box{
+  font-size: 0;
+}
 .q5_calc{
-  width: calc(100% / 3);
-  margin-left: 60px;
+  width: calc((100%-50px) / 3);
+  margin-left: 25px;
+  display: inline-block;
 }
 
 .q5_calc:first-child{
